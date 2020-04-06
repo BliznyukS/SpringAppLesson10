@@ -1,5 +1,4 @@
 import org.springframework.context.support.ClassPathXmlApplicationContext;
-import ru.alishev.springcourse.Music;
 import ru.alishev.springcourse.MusicPlayer;
 
 public class TestSpring {
