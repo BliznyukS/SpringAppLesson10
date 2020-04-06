@@ -8,7 +8,7 @@ public class Computer {
     private MusicPlayer musicPlayer;
 
     public Computer(MusicPlayer musicPlayer) {
-        this.id=1;
+        this.id = 1;
         this.musicPlayer = musicPlayer;
     }
 

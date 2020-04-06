@@ -1,5 +1,5 @@
 import org.springframework.context.support.ClassPathXmlApplicationContext;
-import ru.alishev.springcourse.MusicPlayer;
+import ru.alishev.springcourse.Computer;
 
 public class TestSpring {
     public static void main(String[] args) {
@@ -17,8 +17,11 @@ public class TestSpring {
 //        MusicPlayer rapMusicPlayer = new MusicPlayer(music3);
 //        rapMusicPlayer.playMusic();
 
-        MusicPlayer musicPlayer = context.getBean("musicPlayer", MusicPlayer.class);
-        musicPlayer.playMusic();
+//        MusicPlayer musicPlayer = context.getBean("musicPlayer", MusicPlayer.class);
+//        musicPlayer.playMusic();
+
+        Computer computer = context.getBean("computer", Computer.class);
+        System.out.println(computer);
 
         context.close();
     }
